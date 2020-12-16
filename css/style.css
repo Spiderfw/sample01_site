@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 .banner {
   position: relative;
   width: 100%;
@@ -13,3 +14,28 @@
   align-items: center;
   background: linear-gradient(#404040, #151415);
 }
+
+.banner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 300px;
+  width: 400px;
+  height: 320px;
+  background: #fa215e;
+  z-index: 1;
+  transition: 1s;
+}
+
+.banner:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  width: 400px;
+  height: 200px;
+  background: #aeff0f;
+  z-index: 1;
+  transition: 1s;
+}
+/*# sourceMappingURL=style.css.map */
