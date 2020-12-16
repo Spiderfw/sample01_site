@@ -36,3 +36,23 @@
     transition: 1s;
   }
 }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+
+  & .logo {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.5s;
+    transform-origin: 0 100%;
+  }
+}
